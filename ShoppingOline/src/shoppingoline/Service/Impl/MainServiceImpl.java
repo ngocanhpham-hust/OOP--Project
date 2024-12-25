@@ -340,6 +340,7 @@ public class MainServiceImpl implements MainService {
                 rc.setId(rs.getString("id") != null ? rs.getString("id") : "");
                 rc.setOrderId(orderId);
                 rc.setProductId(rs.getString("product_id") != null ? rs.getString("product_id") : "");
+                rc.setQuantity(rs.getInt("quantity"));
                 rc.setProductName(rs.getString("product_name") != null ? rs.getString("product_name") : "");
                 rc.setPrice(rs.getString("price") != null ? rs.getString("price") : "");
                 list.add(rc);

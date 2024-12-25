@@ -48,10 +48,8 @@ public class PrPanel extends javax.swing.JPanel {
             if (offset < 3) {
                 imgS = imgSuggest;
             }
-        } else {
-            imgSuggests = new ArrayList<>();
-            imgSuggest = "";
         }
+
         List<ProductDTO> products = mainService.searchProduct(name, type, offset, imgS);
         int sizeProduct = products.size();
         actionUtils.showPanel(panelProduct1, new JPanel());
