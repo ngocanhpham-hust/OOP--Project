@@ -1,0 +1,6 @@
+1. Chạy server ai
+2. chạy service com.hust.ai (java)
+3. sửa config db của shopping online và chạy
+khi click vào xem chi tiết đơn hoặc thêm vào giỏ hàng
+
+shopping online call com.hust.ai -> call ai. Lấy về danh sách img và ưu tiên hiển thị danh sách đó nếu ô tìm kiếm = trống, type = ALL
